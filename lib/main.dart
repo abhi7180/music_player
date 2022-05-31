@@ -68,7 +68,7 @@ class _firstState extends State<first> {
                 itemCount: songlist.length,
                 itemBuilder: (context, index) {
                   return ListTile(
-                    leading: Image.file(File(songlist[index].),height: 50,width: 50,),
+                    // leading: Image.file(File(songlist[index].),height: 50,width: 50,),
                     title: Text("${songlist[index].title}"),
                     subtitle: Text("${songlist[index].artist}"),
                     trailing: Text(printDuration(
